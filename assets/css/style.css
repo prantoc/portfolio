@@ -6974,7 +6974,7 @@ a.bg-primary:hover,
 a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #089e86 !important;
+  background-color: #2c1368 !important;
 }
 
 .bg-secondary {
@@ -10690,12 +10690,12 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #0BCEAF !important;
+  color: #2c1368 !important;
 }
 
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #078571 !important;
+  color: #5718f1 !important;
 }
 
 .text-secondary {
