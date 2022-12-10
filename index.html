@@ -14,8 +14,10 @@
 
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
             rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
 
         <!-- Font Awesome -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -23,7 +25,7 @@
         <!-- Libraries Stylesheet -->
         <link href="assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
         <link href="assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <!-- Customized Bootstrap Stylesheet -->
         <link href="assets/css/style.css" rel="stylesheet">
     </head>
@@ -32,7 +34,8 @@
         <!-- Navbar Start -->
         <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
             <a href="index.html" class="navbar-brand ml-lg-3">
-                <h1 class="m-0 display-5"><span class="text-primary">Pranto.</span>C</h1>
+                <h1 class="m-0 display-5" style="font-family: 'Shadows Into Light', cursive;"><span
+                        class="text-primary">Pranto.</span>C</h1>
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -51,22 +54,22 @@
         </nav>
         <!-- Navbar End -->
         <!-- Header Start -->
-        <div class="container-fluid bg-primary d-flex align-items-center" id="home" style="min-height: 100vh;">
+        <div class="container-fluid banner-bg d-flex align-items-center" id="home" style="min-height: 100vh;">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
-                        <img class="img-fluid w-100 rounded-circle shadow-sm" src="assets/img/profile.jpg" alt="">
+                        <img class="img-fluid w-100 rounded-circle shadow-sm" src="assets/img/bg/bg1.gif" alt="">
                     </div>
-                    <div class="col-lg-7 text-center text-lg-left">
+                    <div class=" col-lg-7 text-center text-lg-left">
                         <h3 class="text-white font-weight-normal mb-3">I'm</h3>
                         <h1 class="display-3 text-uppercase text-primary mb-2"
                             style="-webkit-text-stroke: 2px #ffffff;">Pranto Chakraborty</h1>
                         <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
-                        <div class="typed-text d-none">Full-Stack Web Developer.....</div>
+                        <div class="typed-text d-none">A Full-Stack Web Developer.....</div>
                         <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
                             <a href="https://drive.google.com/file/d/1OmgMKl1av4iEBBBzHxZrmwiMk_CEa5ZL/view?usp=sharing"
-                                target="_blank" class="btn btn-outline-light mr-0 mr-lg-5">Download Resume</a>
-                            <a href="#contact" class="btn btn-light bg-white text-primary d-none d-lg-block">Contact
+                                target="_blank" class="btn btn-light border-primary mr-0 mr-lg-5">Download Resume</a>
+                            <a href="#contact" class="btn btn-outline-light d-none d-lg-block">Contact
                                 Me</a>
                         </div>
                     </div>
@@ -85,7 +88,7 @@
                 </div>
                 <div class="row align-items-center">
                     <div class="col-lg-5 pb-4 pb-lg-0">
-                        <img class="img-fluid rounded w-100" src="assets/img/about.png" alt="">
+                        <img class="img-fluid rounded w-100" src="assets/img/profile.jpg" alt="">
                     </div>
                     <div class="col-lg-7">
                         <h3 class="mb-4">Full-Stack Web Developer</h3>
@@ -169,7 +172,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 ">
                         <h3 class="mb-4">My Expericence</h3>
                         <div class="border-left border-primary pt-2 pb-5 mb-1 pl-4 ml-2">
                             <div class="position-relative mb-4">
@@ -355,77 +358,6 @@
             </div>
         </div>
         <!-- Skill End -->
-
-
-        <!-- Services Start -->
-        <!-- <div class="container-fluid pt-5" id="service">
-            <div class="container">
-                <div class="position-relative d-flex align-items-center justify-content-center">
-                    <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Service
-                    </h1>
-                    <h1 class="position-absolute text-uppercase text-primary">My Services</h1>
-                </div>
-                <div class="row pb-3">
-                    <div class="col-lg-4 col-md-6 text-center mb-5">
-                        <div class="d-flex align-items-center justify-content-center mb-4">
-                            <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
-                            <h4 class="font-weight-bold m-0">Web Design</h4>
-                        </div>
-                        <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est
-                            amet labore eirmod erat clita</p>
-                        <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
-                    </div>
-                    <div class="col-lg-4 col-md-6 text-center mb-5">
-                        <div class="d-flex align-items-center justify-content-center mb-4">
-                            <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
-                            <h4 class="font-weight-bold m-0">Web Development</h4>
-                        </div>
-                        <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est
-                            amet labore eirmod erat clita</p>
-                        <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
-                    </div>
-                    <div class="col-lg-4 col-md-6 text-center mb-5">
-                        <div class="d-flex align-items-center justify-content-center mb-4">
-                            <i class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"></i>
-                            <h4 class="font-weight-bold m-0">Apps Design</h4>
-                        </div>
-                        <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est
-                            amet labore eirmod erat clita</p>
-                        <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
-                    </div>
-                    <div class="col-lg-4 col-md-6 text-center mb-5">
-                        <div class="d-flex align-items-center justify-content-center mb-4">
-                            <i class="fab fa-2x fa-apple service-icon bg-primary text-white mr-3"></i>
-                            <h4 class="font-weight-bold m-0">Apps Development</h4>
-                        </div>
-                        <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est
-                            amet labore eirmod erat clita</p>
-                        <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
-                    </div>
-                    <div class="col-lg-4 col-md-6 text-center mb-5">
-                        <div class="d-flex align-items-center justify-content-center mb-4">
-                            <i class="fa fa-2x fa-search service-icon bg-primary text-white mr-3"></i>
-                            <h4 class="font-weight-bold m-0">SEO</h4>
-                        </div>
-                        <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est
-                            amet labore eirmod erat clita</p>
-                        <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
-                    </div>
-                    <div class="col-lg-4 col-md-6 text-center mb-5">
-                        <div class="d-flex align-items-center justify-content-center mb-4">
-                            <i class="fa fa-2x fa-edit service-icon bg-primary text-white mr-3"></i>
-                            <h4 class="font-weight-bold m-0">Content Creating</h4>
-                        </div>
-                        <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est
-                            amet labore eirmod erat clita</p>
-                        <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- Services End -->
-
-
         <!-- Portfolio Start -->
         <div class="container-fluid py-5 mb-5" id="portfolio">
             <div class="container">
@@ -446,9 +378,9 @@
                 </div>
                 <div class="row portfolio-container">
                     <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                        <div class="shadow-lg p-3 rounded" style="max-height: 360px;">
+                        <div class="shadow-lg p-3 rounded" style="height: 400px;">
                             <div class="position-relative overflow-hidden mb-2">
-                                <img class="img-fluid rounded w-100" src="assets/img/p-1.png" alt="">
+                                <img class="rounded w-100" style="max-height: 200px" src="assets/img/p-1.png" alt="">
                                 <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
                                     <a class="mx-4" href="assets/img/p-1.png" data-lightbox="portfolio">
                                         <i class="fa fa-plus text-white" style="font-size: 40px;"></i>
@@ -458,7 +390,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="px-3">
+                            <div class="p-3">
                                 <h5 class="mb-3">
                                     <a href="#" class="font-weight-medium">
                                         Mobile Planet (Used product sell & buy service)
@@ -472,10 +404,10 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 mb-4 portfolio-item first ">
-                        <div class="shadow-lg p-3 rounded" style="max-height: 360px;">
+                    <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                        <div class="shadow-lg p-3 rounded" style="height: 400px;">
                             <div class="position-relative overflow-hidden mb-2">
-                                <img class="img-fluid rounded w-100" src="assets/img/p-2.png" alt="">
+                                <img class="rounded w-100" style="max-height: 200px" src="assets/img/p-2.png" alt="">
                                 <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
                                     <a class="mx-4" href="assets/img/p-2.png" data-lightbox="portfolio">
                                         <i class="fa fa-plus text-white" style="font-size: 40px;"></i>
@@ -485,7 +417,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="px-3">
+                            <div class="p-3">
                                 <h5 class="mb-3">
                                     <a href="#" class="font-weight-medium">
                                         ELearn - An Online Learning Platform
@@ -501,9 +433,9 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                        <div class="shadow-lg p-3 rounded" style="height: 360px;">
+                        <div class="shadow-lg p-3 rounded" style="height: 400px;">
                             <div class="position-relative overflow-hidden mb-2">
-                                <img class="img-fluid rounded w-100" src="assets/img/p-3.png" alt="">
+                                <img class="rounded w-100" style="max-height: 200px" src="assets/img/p-3.png" alt="">
                                 <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
                                     <a class="mx-4" href="assets/img/p-3.png" data-lightbox="portfolio">
                                         <i class="fa fa-plus text-white" style="font-size: 40px;"></i>
@@ -513,7 +445,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="px-3">
+                            <div class="p-3">
                                 <h5 class="mb-3">
                                     <a href="#" class="font-weight-medium">
                                         Photography World
@@ -532,65 +464,15 @@
         </div>
         <!-- Portfolio End -->
 
-
-        <!-- Testimonial Start -->
-        <!-- <div class="container-fluid py-5" id="testimonial">
-            <div class="container">
-                <div class="position-relative d-flex align-items-center justify-content-center">
-                    <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Review
-                    </h1>
-                    <h1 class="position-absolute text-uppercase text-primary">Clients Say</h1>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="owl-carousel testimonial-carousel">
-                            <div class="text-center">
-                                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                                <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos.
-                                    Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet
-                                    accusam amet eirmod eos, labore diam clita</h4>
-                                <img class="img-fluid rounded-circle mx-auto mb-3" src="assets/img/testimonial-1.jpg"
-                                    style="width: 80px; height: 80px;">
-                                <h5 class="font-weight-bold m-0">Client Name</h5>
-                                <span>Profession</span>
-                            </div>
-                            <div class="text-center">
-                                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                                <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos.
-                                    Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet
-                                    accusam amet eirmod eos, labore diam clita</h4>
-                                <img class="img-fluid rounded-circle mx-auto mb-3" src="assets/img/testimonial-2.jpg"
-                                    style="width: 80px; height: 80px;">
-                                <h5 class="font-weight-bold m-0">Client Name</h5>
-                                <span>Profession</span>
-                            </div>
-                            <div class="text-center">
-                                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                                <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos.
-                                    Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet
-                                    accusam amet eirmod eos, labore diam clita</h4>
-                                <img class="img-fluid rounded-circle mx-auto mb-3" src="assets/img/testimonial-3.jpg"
-                                    style="width: 80px; height: 80px;">
-                                <h5 class="font-weight-bold m-0">Client Name</h5>
-                                <span>Profession</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- Testimonial End -->
-
-
         <!-- Blog Start -->
-        <div class="container-fluid pt-5" id="blog">
+        <div class="container-fluid py-5" id="blog">
             <div class="container">
                 <div class="position-relative d-flex align-items-center justify-content-center">
                     <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Blog</h1>
                     <h1 class="position-absolute text-uppercase text-primary">My Blog</h1>
                 </div>
                 <div class="text-center">
-                    <h1 class="position-absolute text-uppercase text-primary">Comming Soon</h1>
+                    <h1 class=" text-uppercase">Comming Soon...</h1>
                 </div>
             </div>
         </div>
@@ -647,7 +529,7 @@
         <!-- Footer End -->
 
         <!-- Scroll to Bottom -->
-        <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+        <i class="fa fa-2x fa-angle-down text-secondary scroll-to-bottom"></i>
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
@@ -662,14 +544,16 @@
         <script src="assets/lib/owlcarousel/owl.carousel.min.js"></script>
         <script src="assets/lib/isotope/isotope.pkgd.min.js"></script>
         <script src="assets/lib/lightbox/js/lightbox.min.js"></script>
-
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <!-- Contact Javascript File -->
         <script src="assets/mail/jqBootstrapValidation.min.js"></script>
         <script src="assets/mail/contact.js"></script>
 
         <!-- Template Javascript -->
         <script src="assets/js/main.js"></script>
-
+        <script>
+            AOS.init();
+        </script>
 
     </body>
 

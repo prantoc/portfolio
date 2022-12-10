@@ -11181,3 +11181,42 @@ h6,
 .branding21.formFooter {
   display: none !important;
 }
+
+
+
+.banner-bg {
+  background-image: url('../img/bg/stars.gif');
+  background-repeat: space;
+  background-size: cover;
+  background-position: center;
+  background-color: #000000c4;
+}
+
+.bg-layer {
+  background-color: #000000c4;
+  width: fit-content;
+}
+
+.banner-2 {
+  background-image: url('../img/bg/bg2.gif');
+  /* background-repeat: space; */
+
+}
+
+@media (max-width: 768px) {
+  .banner-bg {
+    background: #2c1368;
+  }
+}
+
+@media (max-width: 576px) {
+  .banner-bg {
+    background: #2c1368;
+  }
+}
+
+@media (max-width: 300px) {
+  .banner-bg {
+    background: #2c1368;
+  }
+}
