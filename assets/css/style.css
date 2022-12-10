@@ -2722,8 +2722,8 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #09aa90;
-  border-color: #089e86;
+  background-color: #3d13a1;
+  border-color: #3d13a1;
 }
 
 .btn-primary:focus,
@@ -11176,4 +11176,8 @@ h6,
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+.branding21.formFooter {
+  display: none !important;
 }
