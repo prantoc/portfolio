@@ -2213,9 +2213,9 @@ pre code {
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #62f7df;
+  border-color: #2c1368;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(11, 206, 175, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(11, 27, 206, 0.25);
 }
 
 .form-control::placeholder {
@@ -3055,7 +3055,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-primary:focus,
 .btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(11, 206, 175, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(11, 40, 206, 0.5);
 }
 
 .btn-outline-primary.disabled,
