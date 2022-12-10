@@ -26,6 +26,8 @@
         <link href="assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
         <link href="assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
         <!-- Customized Bootstrap Stylesheet -->
         <link href="assets/css/style.css" rel="stylesheet">
     </head>
@@ -391,7 +393,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="p-3">
+                            <div class="py-3">
                                 <h5 class="mb-3">
                                     <a href="#" class="font-weight-medium">
                                         Mobile Planet (Used product sell & buy service)
@@ -400,7 +402,10 @@
                                 <p>
                                     A mobile phone sell & buy marketplace with types of user...
                                 </p>
-                                <a class="btn btn-sm btn-outline-primary py-2" href="#">Read More</a>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    Launch demo modal
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -418,16 +423,17 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="p-3">
+                            <div class="py-3">
                                 <h5 class="mb-3">
                                     <a href="#" class="font-weight-medium">
-                                        ELearn - An Online Learning Platform
+                                        ELearn-An Online Learning Platform
                                     </a>
                                 </h5>
                                 <p>
                                     User can buy a premium course and download course details PDF...
                                 </p>
-                                <a class="btn btn-sm btn-outline-primary py-2" href="#">Read More</a>
+                                <button class="btn btn-sm btn-outline-primary py-2" data-bs-toggle="modal"
+                                    data-bs-target="#project2">Read More</button>
                             </div>
                         </div>
 
@@ -446,16 +452,17 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="p-3">
+                            <div class="py-3">
                                 <h5 class="mb-3">
                                     <a href="#" class="font-weight-medium">
-                                        Photography World
+                                        Photography World- Is a photography service
                                     </a>
                                 </h5>
                                 <p>
                                     Photography service website with an incredible review system...
                                 </p>
-                                <a class="btn btn-sm btn-outline-primary py-2" href="#">Read More</a>
+                                <button class="btn btn-sm btn-outline-primary py-2" data-bs-toggle="modal"
+                                    data-bs-target="#project3">Read More</button>
                             </div>
                         </div>
 
@@ -463,6 +470,27 @@
                 </div>
             </div>
         </div>
+
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ng
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <!-- Portfolio End -->
 
         <!-- Blog Start -->
@@ -570,7 +598,9 @@
 
         <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
         <script src="assets/lib/typed/typed.min.js"></script>
         <script src="assets/lib/easing/easing.min.js"></script>
         <script src="assets/lib/waypoints/waypoints.min.js"></script>
